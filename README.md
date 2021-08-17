@@ -18,24 +18,14 @@ Anschliessend können wir das Projekt an @pdc-marketing-it übergeben.
 
 ## Setup der Entwicklungsumgebung
 
-### Github workflow
-
-Wie im Szenario beschrieben habe ich bereits vorarbeit geleistet und dieses Readme erstellt 🚀🚀🚀
-
-Nun werden wir zusammen - in bester Open Source manier - das Projekt erstellen. 
-
-Der Github Workflow für OpenSource projekte ist `fork > clone > commit > push > pull request` 
-
-Nachdem du also die SDK und VSCode installiert hast, kannst du das projekt hier [forken](#).  
-
 ### Lokale Entwicklungsumgebung einrichten
 
-Wir klonen nun das Projekt klonen wir das Repository in einen Entwicklungs-Ordner
+Wir klonen nun das Projekt in deinen Entwicklungs-Ordner
 
-Ich arbeite seit Jahren mit folgender Struktur (hat sich bewährt).
+Bei mir hat sich folgendes setup bewährt.
 
 ```txt
-C:/dev/
+~/dev/
 |__ {github-account}
    |__ {project-name}
 ```
@@ -43,7 +33,7 @@ C:/dev/
 Also in meinem fall sieht das so aus: 
 
 ```txt
-C:/dev/
+~/dev/
 |__ pdc-marketing-it/
 |  |__ pdc-xtodo/
 |  |__ usw...
@@ -56,16 +46,16 @@ C:/dev/
 Wenn ich z.b. ein Repository von jemand anderem herunterladen möchte, mache ich einfach das: 
 
 ```ps
-cd C:/dev
+cd ~/dev
 md JiroKaya
 cd JiroKaya
 git clone https://github.com/JiroKaya/pdc-xtodo
 ```
 
-Das sieht das so aus... 
+Das sieht dann so aus... 
 
 ```txt
-C:/dev/
+~/dev/
 |__ pdc-marketing-it/
 |  |__ pdc-xtodo/
 |  |__ usw...
@@ -80,32 +70,47 @@ C:/dev/
 
 Ok, das geht nicht weil Du `pdc-xtodo` noch nicht hast. Aber genau das machen wir jetzt.
 
-### Projekt auf Github forken
+### Github workflow
 
-Auf meinem github steht das Projekt bereit. 
+Wie im Szenario beschrieben habe ich bereits vorarbeit geleistet und dieses Readme erstellt 🚀🚀🚀
 
-[tweakch/pdc-xtodo](https://github.com/tweakch
+Nun werden wir zusammen - in bester Open Source manier - das Projekt erstellen. 
 
-(`Windows+R` > `powershell`)
+Der Github Workflow für OpenSource projekte ist `fork > clone > commit > push > pull request` 
 
-### Entwicklungs-Ordner erstellen und repository clonen 
+#### Fork
 
-Folgenden code kopieren und in die shell einfügen
+Nachdem du also die SDK und VSCode installiert hast, kannst du dieses Projekt forken
+![image](https://user-images.githubusercontent.com/1404998/129704894-b5fa7a59-cab5-4467-a948-8f30fcabd614.png)
+
+Die Todos sind hier: [tweakch/pdc-xtodo](https://github.com/tweakch) 
+
+Diese Todos werden wir nun per Pull Requests abarbeiten. 
+
+#### Clone 
+
+Öffne eine Powershell (`Windows+R` > `powershell`):
+
 ```ps
-md -p C:/dev/pdc-marketing-it
-cd C:/dev/pdc-marketing-it
-git clone https://github.com/pdc-marketing-it/pdc-xtodo
+md -p $HOME/dev/JiroKaya
+cd $HOME/dev/JiroKaya
+git clone https://github.com/JiroKaya/pdc-xtodo
 cd pdc-xtodo
 ```
+
+Dies erstellt dein Entwicklungsordner und `cloned` dein Repo.
+
 ### vscode über commandline öffnen
+
+Öffne vscode im aktuellen Verzeichnis
 
 ```ps
 code .
 ```
 
-- [ ] vscode sollte eine Warnung anzeigen das der aktuelle ordner nicht `trusted` ist...
+- [ ] evtl zeigt vscode eine Warnung an das der aktuelle Ordner nicht `trusted` ist...
 ![image](https://user-images.githubusercontent.com/1404998/129693720-c80c4608-d052-4980-b9ff-69dbb167f951.png)
-- [ ] Workspace immer vertrauen und OK klicken
+- [ ] du kannst deinem Workspace immer vertrauen also OK...
 - [ ] Empfohlene Extensions (und evtl Git) installieren
 ![image](https://user-images.githubusercontent.com/1404998/129694590-41eaea7e-10ed-4fdf-8a3b-9f72acb9e4a6.png)
 
