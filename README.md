@@ -20,7 +20,7 @@ Anschliessend können wir das Projekt an @pdc-marketing-it übergeben.
 
 ### Github workflow
 
-Wie im Szenario beschrieben habe ich bereits vorarbeit geleistet und dieses Readme erstellt... 
+Wie im Szenario beschrieben habe ich bereits vorarbeit geleistet und dieses Readme erstellt 🚀🚀🚀
 
 Nun werden wir zusammen - in bester Open Source manier - das Projekt erstellen. 
 
