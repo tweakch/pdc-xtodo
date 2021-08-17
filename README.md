@@ -1,2 +1,2 @@
 # pdc-xtodo
-Testprojekt für @JiroKaya
+Testprojekt für [@JiroKaya](https://github.com/JiroKaya)
