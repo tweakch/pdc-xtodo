@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "ms-dotnettools.csharp",
+        "ms-vscode.powershell",
+        "davidanson.vscode-markdownlint",
+        "vscode-icons-team.vscode-icons"
+    ]
+}

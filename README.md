@@ -87,7 +87,7 @@ Die Todos sind hier: [tweakch/pdc-xtodo](https://github.com/tweakch)
 
 Diese Todos werden wir nun per Pull Requests abarbeiten. 
 
-#### Clone 
+#### Clone
 
 Öffne eine Powershell (`Windows+R` > `powershell`):
 
@@ -114,9 +114,8 @@ code .
 - [ ] Empfohlene Extensions (und evtl Git) installieren
 ![image](https://user-images.githubusercontent.com/1404998/129694590-41eaea7e-10ed-4fdf-8a3b-9f72acb9e4a6.png)
 
-**Damit ist das Setup der Entwicklungsumgebung abgeschlossen**
+> **Damit ist das Setup der Entwicklungsumgebung abgeschlossen**
 
-## Projekt-Struktur
+## Nächste Schritte
 
-## 
-
+Siehe [todos](https://github.com/tweakch/pdc-xtodo/projects/1)
