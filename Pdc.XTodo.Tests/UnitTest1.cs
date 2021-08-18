@@ -22,10 +22,11 @@ namespace Pdc.XTodo.Tests
         public void For_Loop()
         {
             int i;
-            for (i = 0; i <= 10; i++)
+            for (i = 0; i < 10; i++)
             {
             }
-            Assert.AreEqual(10,i);
+
+            Assert.AreEqual(10, i);
         }
 
         [TestMethod]
