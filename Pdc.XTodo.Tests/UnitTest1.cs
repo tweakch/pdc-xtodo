@@ -8,7 +8,7 @@ namespace Pdc.XTodo.Tests
     ///
     /// Einige Übungen bevor wir loslegen
     /// 
-    //[TestClass]
+    [TestClass]
     public class UnitTest1
     {
         
