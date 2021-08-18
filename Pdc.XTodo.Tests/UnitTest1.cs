@@ -46,7 +46,7 @@ namespace Pdc.XTodo.Tests
             } 
             else 
             {
-                
+
             }
 
             Assert.AreEqual(100, num);
@@ -61,13 +61,14 @@ namespace Pdc.XTodo.Tests
         [TestMethod]
         public void Default_Values()
         {
-            int i = 1;
-            double d = 1.0;
-            bool b = true; 
-            string s = "hello";
-            char c = '#';
+            int i = 0;
+            double d = 0.0;
+            bool b = false; 
+            string s = null;
+            char c = '\x0000';
             
-            string unicode = "💀";
+            string unicode = "\x0000";
+            Console.WriteLine(unicode.ToCharArray());
 
             Assert.AreEqual(default(int),i);
             Assert.AreEqual(default(double),d);
