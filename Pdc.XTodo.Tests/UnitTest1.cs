@@ -8,7 +8,7 @@ namespace Pdc.XTodo.Tests
     ///
     /// Einige Übungen bevor wir loslegen
     /// 
-    [TestClass]
+    //[TestClass]
     public class UnitTest1
     {
         
@@ -85,12 +85,14 @@ namespace Pdc.XTodo.Tests
             Assert.AreEqual(0xDE80, unicode.ToCharArray()[1]);
         }
 
+// hallo
+
         /// <summary>
-        ///
-        /// </summary>
+        /// hallo ich bin ein summary
         /// <para>
         ///   ACHTUNG: Die <see cref="Assert"/> Anweisungen sind vorgegeben und dürfen nicht verändert werden
         /// </para>
+        /// </summary>
         [TestMethod]
         public void Literals()
         {
