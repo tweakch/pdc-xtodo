@@ -46,7 +46,7 @@ namespace Pdc.XTodo.Tests
             } 
             else 
             {
-                Assert.Fail();
+                
             }
 
             Assert.AreEqual(100, num);
