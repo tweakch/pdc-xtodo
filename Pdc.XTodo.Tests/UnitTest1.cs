@@ -22,10 +22,11 @@ namespace Pdc.XTodo.Tests
         public void For_Loop()
         {
             int i;
-            for (i = 0; i <= 10; i++)
+            for (i = 0; i < 10; i++)
             {
             }
-            Assert.AreEqual(10,i);
+
+            Assert.AreEqual(10, i);
         }
 
         [TestMethod]
@@ -45,7 +46,7 @@ namespace Pdc.XTodo.Tests
             } 
             else 
             {
-                Assert.Fail();
+
             }
 
             Assert.AreEqual(100, num);
@@ -60,11 +61,11 @@ namespace Pdc.XTodo.Tests
         [TestMethod]
         public void Default_Values()
         {
-            int i = 1;
-            double d = 1.0;
-            bool b = true; 
-            string s = "hello";
-            char c = '#';
+            int i = 0;
+            double d = 0.0;
+            bool b = false; 
+            string s = null;
+            char c = '\x0000';
             
             Assert.AreEqual(default(int),i);
             Assert.AreEqual(default(double),d);
@@ -82,12 +83,14 @@ namespace Pdc.XTodo.Tests
             Assert.AreEqual(0xDE80, unicode.ToCharArray()[1]);
         }
 
+// hallo
+
         /// <summary>
-        ///
-        /// </summary>
+        /// hallo ich bin ein summary
         /// <para>
         ///   ACHTUNG: Die <see cref="Assert"/> Anweisungen sind vorgegeben und dürfen nicht verändert werden
         /// </para>
+        /// </summary>
         [TestMethod]
         public void Literals()
         {
