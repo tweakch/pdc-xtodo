@@ -67,15 +67,11 @@ namespace Pdc.XTodo.Tests
             string s = null;
             char c = '\x0000';
             
-            string unicode = "\x0000";
-            Console.WriteLine(unicode.ToCharArray());
-
             Assert.AreEqual(default(int),i);
             Assert.AreEqual(default(double),d);
             Assert.AreEqual(default(bool),b);
             Assert.AreEqual(default(string),s);
-            Assert.AreEqual(default(char),c);
-            Assert.AreEqual(default(char[]),unicode.ToCharArray()); // hint: http://www.unicode-symbol.com/block/ASCII.html
+            Assert.AreEqual(default(char), c);
         }
 
         [TestMethod]
